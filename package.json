@@ -13,10 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "bootstrap": "4.1.3",
     "bootstrap-vue": "^2.0.0-beta",
-    "bootstrap": "^4.1.3"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

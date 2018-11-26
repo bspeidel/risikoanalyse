@@ -14,9 +14,11 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     script: [
-        { src: 'https://code.jquery.com/jquery-3.2.1.slim.min.js' },
+        { src: 'http://localhost:8098'},
         { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' },
-        { src: 'https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.1.0/nouislider.min.js' }
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.1.0/nouislider.min.js' },
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js' },
+        { src: 'https://rawgit.com/pablomolnar/radial-progress-chart/master/dist/radial-progress-chart.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -24,8 +26,6 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.3.1/css/all.css' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.1.0/nouislider.min.css' }
-
-
     ]
   },
 
@@ -38,9 +38,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-      // SCSS file in the project
-      '@/assets/scss/main.scss',
-      '@/assets/scss/slider.scss'
+    '@/assets/scss/main.scss'
   ],
 
   /*
@@ -52,7 +50,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
+  modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt'
   ],

@@ -1,14 +1,15 @@
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/functions";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/mixins";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/reboot";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/type";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/images";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/code";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/grid";
-@import "../../../risikoanalyse/node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/bootstrap";
 
 .logo {
-  background-image: url("~assets/images/zurich-logo.png");
+  background-image: url("../images/zurich-logo.png");
 }
 
 body {
@@ -88,29 +89,6 @@ a, a:hover, a:focus {
   top: 10px;
   color: #4f90c6;
   font-size: 1.2rem;
-}
-
-.gauge {
-  max-width: 300px;
-}
-
-.dot-red {
-  height: 25px;
-  width: 25px;
-  background-color: #ff0000;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: -6px;
-  margin-left: 20px;
-}
-
-.dot-green {
-  height: 25px;
-  width: 25px;
-  background-color: #1EC481;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: -6px
 }
 
 /* ---------------------------------------------------
